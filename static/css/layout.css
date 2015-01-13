@@ -825,6 +825,7 @@ table tr:hover td {
     overflow: hidden;
     position: relative;
     transition: all 0.3s ease-in-out 0s;
+    -webkit-transition: all 0.3s ease-in-out 0s;
     width: 100%;
 }
 .thumbImage img {
