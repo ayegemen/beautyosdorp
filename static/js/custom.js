@@ -1,8 +1,4 @@
-/*-------------------------------------------------------------------------
 
-	Theme Name: Cutting Edge
-	
--------------------------------------------------------------------------*/
 
 $(document).ready(function () {
 	/*vars used throughout*/
@@ -145,31 +141,31 @@ $(document).ready(function () {
 		thumb_links				:	0,			// Individual thumb links for each slide
 		thumbnail_navigation    :   0,			// Thumbnail navigation
 		slides 					:	[			// Slideshow Images
-			{image : './images/slider/image1.jpg',
+			{image : '/static/images/slider/image1.jpg',
 				title : '<h2><span>Responsive</span> Design</h2>',
 				thumb : '',
 				url : ''
 				},
 
-			{image : './images/slider/image3.jpg',
+			{image : '/static/images/slider/image3.jpg',
 				title : '<h2><span>Fullscreen</span> Slideshow</h2>',
 				thumb : '',
 				url : ''
 				},
 
-			{image : './images/slider/image2.jpg',
+			{image : '/static/images/slider/image2.jpg',
 				title : '<h2><span>Parallax</span> Background</h2>',
 				thumb : '',
 				url : ''
 				},
 
-			{image : './images/slider/image4.jpg',
+			{image : '/static/images/slider/image4.jpg',
 				title : '<h2><span>Directional Hover</span> Gallery</h2>',
 				thumb : '',
 				url : ''
 				},
 
-			{image : './images/slider/image5.jpg',
+			{image : '/static/images/slider/image5.jpg',
 				title : '<h2><span>Showcase</span> your style</h2>',
 				thumb : '',
 				url : ''

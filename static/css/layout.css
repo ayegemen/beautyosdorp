@@ -328,11 +328,11 @@ nav ul li a:hover {
 }
 #prevslide{ 
     right:60px; 
-    background:url('../images/icons/icon-up-arrow.png') center center no-repeat #000; 
+    background:url('/static/images/icons/icon-up-arrow.png') center center no-repeat #000; 
 }
 #nextslide{ 
     right:10px; 
-    background:url('../images/icons/icon-down-arrow.png') center center no-repeat #000;
+    background:url('/static/images/icons/icon-down-arrow.png') center center no-repeat #000;
 }
 #prevslide:active, #nextslide:active{ 
     margin-top:-19px; 
@@ -354,7 +354,7 @@ nav ul li a:hover {
     font-size: 86px;
 }
 
-#supersized-loader { position:absolute; top:50%; left:50%; z-index:0; width:60px; height:60px; margin:-30px 0 0 -30px; text-indent:-999em; background:url(../images/progress.gif) no-repeat center center;}
+#supersized-loader { position:absolute; top:50%; left:50%; z-index:0; width:60px; height:60px; margin:-30px 0 0 -30px; text-indent:-999em; background:url(/static/images/progress.gif) no-repeat center center;}
 
 #supersized {  display:block; position:absolute; left:0; top:0; overflow:hidden; z-index:-999; height:100%; width:100%; }
 #supersized img { width:auto; height:auto; position:relative; display:none; outline:none; border:none; }
@@ -365,7 +365,7 @@ nav ul li a:hover {
 #supersized a { width:100%; height:100%; display:block; }
 #supersized li.prevslide { z-index:-20; }
 #supersized li.activeslide { z-index:-10; }
-#supersized li.image-loading { background:#111 url(../images/progress.gif) no-repeat center center; width:100%; height:100%; }
+#supersized li.image-loading { background:#111 url(/static/images/progress.gif) no-repeat center center; width:100%; height:100%; }
 #supersized li.image-loading img{ visibility:hidden; }
 #supersized li.prevslide img, #supersized li.activeslide img{ display:inline; }
 
@@ -418,7 +418,7 @@ nav ul li a:hover {
     vertical-align: middle;
 }
 .imageClip {
-    background:url(../images/parallax/model-clipped.png) center center no-repeat;
+    background:url(/static/images/parallax/model-clipped.png) center center no-repeat;
     width: 287px;
     height: 800px;
     margin: -500px auto 0 auto;
@@ -435,7 +435,7 @@ nav ul li a:hover {
 #twitter li {
     margin: 0;
     padding: 40px 0 0 0;
-    background: url(../images/icons/social-twitter.png) no-repeat center top;
+    background: url(/static/images/icons/social-twitter.png) no-repeat center top;
     font-size: 24px;
     text-shadow: 0px 0px 5px #222;
 }
@@ -550,27 +550,27 @@ nav ul li a:hover {
 }
 
 .stat-1 { 
-    background-image: url(../images/stats/stat-1.jpg);
+    background-image: url(/static/images/stats/stat-1.jpg);
     z-index: 12;
 }
 .stat-2 { 
-    background-image: url(../images/stats/stat-2.jpg);
+    background-image: url(/static/images/stats/stat-2.jpg);
     z-index: 11;
 }
 .stat-3 { 
-    background-image: url(../images/stats/stat-3.jpg);
+    background-image: url(/static/images/stats/stat-3.jpg);
     z-index: 10;
 }
 .stat-4 { 
-    background-image: url(../images/stats/stat-4.jpg);
+    background-image: url(/static/images/stats/stat-4.jpg);
     z-index: 9;
 }
 .stat-5 { 
-    background-image: url(../images/stats/stat-5.jpg);
+    background-image: url(/static/images/stats/stat-5.jpg);
     z-index: 8;
 }
 .stat-6 { 
-    background-image: url(../images/stats/stat-6.jpg);
+    background-image: url(/static/images/stats/stat-6.jpg);
     z-index: 7;
 }
 .statInfo {
@@ -884,7 +884,7 @@ table tr:hover td {
 }
 .iconWrapper {
     background-color: rgba(210, 181, 91, 0.7);
-    background-image: url("../images/btn-zoom.png");
+    background-image: url("/static/images/btn-zoom.png");
     background-position: 50% 50%;
     background-repeat: no-repeat;
     border-radius: 50% 50% 50% 50%;
@@ -911,11 +911,11 @@ table tr:hover td {
 .contactDetails {
     text-align: left;
 }
-.contactAddress {background: url("../images/icons/icon-address-grey.png") no-repeat scroll left 3px transparent;}
-.contactPhone {background: url("../images/icons/icon-phone-grey.png") no-repeat scroll left 3px transparent;}
-.contactEmail {background: url("../images/icons/icon-email-grey.png") no-repeat scroll left 5px transparent;}
-.contactSkype {background: url("../images/icons/icon-skype-grey.png") no-repeat scroll left 5px transparent;}
-.contactTime {background: url("../images/icons/icon-time-grey.png") no-repeat scroll left 5px transparent;} 
+.contactAddress {background: url("/static/images/icons/icon-address-grey.png") no-repeat scroll left 3px transparent;}
+.contactPhone {background: url("/static/images/icons/icon-phone-grey.png") no-repeat scroll left 3px transparent;}
+.contactEmail {background: url("/static/images/icons/icon-email-grey.png") no-repeat scroll left 5px transparent;}
+.contactSkype {background: url("/static/images/icons/icon-skype-grey.png") no-repeat scroll left 5px transparent;}
+.contactTime {background: url("/static/images/icons/icon-time-grey.png") no-repeat scroll left 5px transparent;} 
     
     
     
@@ -1154,16 +1154,16 @@ button.close {
     background-color: #D2B55B;
 }
 
-.twitter {background-image: url("../images/icons/social-twitter.png");}
-.facebook {background-image: url("../images/icons/social-facebook.png");}
-.vimeo {background-image: url("../images/icons/social-vimeo.png");}
-.youtube {background-image: url("../images/icons/social-youtube.png");}
-.skype {background-image: url("../images/icons/social-skype.png");}
-.linkedin {background-image: url("../images/icons/social-linkedin.png");}
-.pinterest {background-image: url("../images/icons/social-pinterest.png");}
-.googleplus {background-image: url("../images/icons/social-google+.png");}
-.flickr {background-image: url("../images/icons/social-flickr.png");}
-.rss {background-image: url("../images/icons/social-rss.png");}
+.twitter {background-image: url("/static/images/icons/social-twitter.png");}
+.facebook {background-image: url("/static/images/icons/social-facebook.png");}
+.vimeo {background-image: url("/static/images/icons/social-vimeo.png");}
+.youtube {background-image: url("/static/images/icons/social-youtube.png");}
+.skype {background-image: url("/static/images/icons/social-skype.png");}
+.linkedin {background-image: url("/static/images/icons/social-linkedin.png");}
+.pinterest {background-image: url("/static/images/icons/social-pinterest.png");}
+.googleplus {background-image: url("/static/images/icons/social-google+.png");}
+.flickr {background-image: url("/static/images/icons/social-flickr.png");}
+.rss {background-image: url("/static/images/icons/social-rss.png");}
 
 
 
