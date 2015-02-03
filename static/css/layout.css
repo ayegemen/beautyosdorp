@@ -75,7 +75,8 @@ table {
 
 body {
     background-color: #fff;
-    font: 15px 'Oswald', sans-serif;
+    /*font: 15px 'Oswald', sans-serif;*/
+    font: 15px 'Lobster Two' cursive;
     font-weight: 300;
     color: #222;
     -webkit-font-smoothing: antialiased;
@@ -209,7 +210,8 @@ strong {
     font-weight: 700;
 }
 .introtext {
-    font-size: 20px;
+    /*font-size: 20px;*/
+    font-size: 25px;
     margin-bottom: 35px;
 }
 .marginTop {
@@ -274,6 +276,7 @@ nav ul {
     height: 38px;
     display: inline-block;
     padding-top: 9px;
+
 }
 nav ul li {
     position: relative;
@@ -282,7 +285,7 @@ nav ul li {
 }
 nav ul li a {
     font-family: 'Oswald',sans-serif;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
     color: white;
     text-decoration: none;
