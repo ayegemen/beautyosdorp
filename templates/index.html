@@ -25,7 +25,6 @@
 
     <!-- Google Web Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Oswald:400,300,700" rel="stylesheet" type="text/css">
-    <link href='https://fonts.googleapis.com/css?family=Lobster+Two' rel='stylesheet' type='text/css'>
     
     <!-- JavaScripts -->
     <script type="text/javascript" src="/static/js/prefixfree.min.js"></script>
@@ -76,6 +75,7 @@
 
 </head>
 <body>
+<div class="change">changefont</div>
     
 <!-- Start Homepage -->
     <div id="homepage" class="homepage section">
@@ -1282,6 +1282,12 @@
 <script type="text/javascript" charset="utf-8">
     $(document).ready(function(){
         $("a[rel^='prettyPhoto']").prettyPhoto({animation_speed:'normal',slideshow:6000});
+    });
+</script>
+
+<script type="text/javascript">
+    $("div.change").click(function() {
+        $("body").toggleClass("changed");
     });
 </script>
 

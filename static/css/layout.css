@@ -75,8 +75,7 @@ table {
 
 body {
     background-color: #fff;
-    /*font: 15px 'Oswald', sans-serif;*/
-    font: 15px 'Lobster Two' cursive;
+    font: 15px 'Oswald' sans-serif;
     font-weight: 300;
     color: #222;
     -webkit-font-smoothing: antialiased;
@@ -86,6 +85,18 @@ body {
     height: 100%;
     text-align: center;
     
+}
+
+div.change {
+    z-index: 100;
+    position: absolute;
+    width: 100%;
+    background-color: red;
+    cursor: pointer;
+}
+
+.changed {
+    font: 15px 'Lobster Two' cursive;
 }
 
 .video-container {
@@ -210,10 +221,12 @@ strong {
     font-weight: 700;
 }
 .introtext {
-    /*font-size: 20px;*/
-    font-size: 25px;
+    font-size: 20px;
     margin-bottom: 35px;
 }
+/*.introtext2 {
+    font-size: 25px;
+}*/
 .marginTop {
     margin-top: 30px;
 }
