@@ -337,7 +337,7 @@ nav ul li a:hover {
     width: 100%;
 }
 .slider-text {
-    bottom: 0px;
+    bottom: 10px;
     min-height: 220px;
     overflow: hidden;
     position: absolute;

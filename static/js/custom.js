@@ -141,35 +141,41 @@ $(document).ready(function () {
 		thumb_links				:	0,			// Individual thumb links for each slide
 		thumbnail_navigation    :   0,			// Thumbnail navigation
 		slides 					:	[			// Slideshow Images
-			{image : '/static/images/slider/image1.jpg',
-				title : '<h2><span>Responsive</span> Design</h2>',
+			{image : '/static/images/slider/imagecsmall.jpg',
+				title : '<h2><span>30% korting op alle behandelingen<span></h2>',
 				thumb : '',
 				url : ''
 				},
 
-			{image : '/static/images/slider/image3.jpg',
-				title : '<h2><span>Fullscreen</span> Slideshow</h2>',
+			{image : '/static/images/slider/image3small.jpg',
+				title : '<h2><span>30% korting op alle behandelingen</span></h2>',
 				thumb : '',
 				url : ''
 				},
 
-			{image : '/static/images/slider/image2.jpg',
-				title : '<h2><span>Parallax</span> Background</h2>',
+			// {image : '/static/images/slider/image1small.jpg',
+			// 	title : '',
+			// 	thumb : '',
+			// 	url : ''
+			// 	},
+
+			{image : '/static/images/slider/image8.jpg',
+				title : '<h2><span>30% korting op alle behandelingen</span></h2>',
 				thumb : '',
 				url : ''
 				},
 
-			{image : '/static/images/slider/image4.jpg',
-				title : '<h2><span>Directional Hover</span> Gallery</h2>',
-				thumb : '',
-				url : ''
-				},
+			// {image : '/static/images/slider/image4.jpg',
+			// 	title : '<h2><span>Directional Hover</span> Gallery</h2>',
+			// 	thumb : '',
+			// 	url : ''
+			// 	},
 
-			{image : '/static/images/slider/image5.jpg',
-				title : '<h2><span>Showcase</span> your style</h2>',
-				thumb : '',
-				url : ''
-				}
+			// {image : '/static/images/slider/image5.jpg',
+			// 	title : '<h2><span>Showcase</span> your style</h2>',
+			// 	thumb : '',
+			// 	url : ''
+			// 	}
 		],
 									
 		// Theme Options			   
