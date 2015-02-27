@@ -141,17 +141,17 @@ $(document).ready(function () {
 		thumb_links				:	0,			// Individual thumb links for each slide
 		thumbnail_navigation    :   0,			// Thumbnail navigation
 		slides 					:	[			// Slideshow Images
-			{image : '/static/images/slider/imagecsmall.jpg',
+			{image : '/static/images/slider/slide1.jpg',
 				title : '<h2><span>30% korting op alle behandelingen<span></h2>',
 				thumb : '',
 				url : ''
 				},
 
-			{image : '/static/images/slider/image3small.jpg',
-				title : '<h2><span>30% korting op alle behandelingen</span></h2>',
-				thumb : '',
-				url : ''
-				},
+			// {image : '/static/images/slider/image3small.jpg',
+			// 	title : '<h2><span>30% korting op alle behandelingen</span></h2>',
+			// 	thumb : '',
+			// 	url : ''
+			// 	},
 
 			// {image : '/static/images/slider/image1small.jpg',
 			// 	title : '',
@@ -159,11 +159,11 @@ $(document).ready(function () {
 			// 	url : ''
 			// 	},
 
-			{image : '/static/images/slider/image8.jpg',
-				title : '<h2><span>30% korting op alle behandelingen</span></h2>',
-				thumb : '',
-				url : ''
-				},
+			// {image : '/static/images/slider/image8.jpg',
+			// 	title : '<h2><span>30% korting op alle behandelingen</span></h2>',
+			// 	thumb : '',
+			// 	url : ''
+			// 	},
 
 			// {image : '/static/images/slider/image4.jpg',
 			// 	title : '<h2><span>Directional Hover</span> Gallery</h2>',
