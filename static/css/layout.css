@@ -337,7 +337,7 @@ nav ul li a:hover {
     width: 100%;
 }
 .slider-text {
-    bottom: 10px;
+    bottom: 35px;
     min-height: 220px;
     overflow: hidden;
     position: absolute;
@@ -366,7 +366,7 @@ nav ul li a:hover {
     cursor:pointer; 
 }
 
-#slidecaption h2{
+/*#slidecaption h2{
     text-shadow: 0 0 5px #000;
     font-weight: 700;
     font-size: 84px;
@@ -377,6 +377,32 @@ nav ul li a:hover {
 #slidecaption h2 span{
     font-weight: 300;
     font-size: 86px;
+}*/
+
+#slidecaption h2{
+    text-shadow: 0 0 5px #000;
+    font-weight: 600;
+    font-size: 70px;
+    color: #fff;
+    text-align: left;
+    line-height: 1;
+}
+#slidecaption h2 span{
+    font-weight: 300;
+    font-size: 70px;
+}
+
+#slidecaption h3{
+    text-shadow: 0 0 5px #000;
+    font-weight: 500;
+    font-size: 60px;
+    color: #fff;
+    text-align: left;
+    line-height: 1;
+}
+#slidecaption h3 span{
+    font-weight: 100;
+    font-size: 60px;
 }
 
 #supersized-loader { position:absolute; top:50%; left:50%; z-index:0; width:60px; height:60px; margin:-30px 0 0 -30px; text-indent:-999em; background:url(/static/images/progress.gif) no-repeat center center;}

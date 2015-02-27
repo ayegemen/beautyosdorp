@@ -142,7 +142,7 @@ $(document).ready(function () {
 		thumbnail_navigation    :   0,			// Thumbnail navigation
 		slides 					:	[			// Slideshow Images
 			{image : '/static/images/slider/slide1.jpg',
-				title : '<h2><span>30% korting op alle behandelingen<span></h2> <h4>t/m 31 maart</h4>',
+				title : '<h2>30% korting op alle behandelingen</h2> <h3><span>t/m 31 maart</span></h3>',
 				thumb : '',
 				url : ''
 				},
