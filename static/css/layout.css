@@ -328,6 +328,7 @@ nav ul li a:hover {
 .logo {
     float: left;
     margin-top: 50px;
+    padding: 0px;
     /*margin: 50px 0px 0px 0px;*/
 }
 
@@ -1282,7 +1283,7 @@ button.close {
     #nav {display: none;}
     #slidecaption { display:none;}
     #prevslide, #nextslide{top:120px;}
-    .logo {margin-top: 10px; transform: scale(.5);}
+    .logo {margin-left: -33%;margin-top: -20px; transform: scale(.5);}
     #prevslide {right: 45px; transform: scale(.5);}
     #nextslide {right: 22px; transform: scale(.5);}
     .homepage {margin-bottom: -50px;}
@@ -1316,5 +1317,7 @@ button.close {
     .imageClip2 {margin-top: 211px;}
     .teamOverlay {width: 290px; height: 290px;}
     .toptable {margin-top: 0px;}
+    .parallax.fixed{background-attachment:scroll; background-position: left top;}
+    .tar h2 {font-size: 35px;}
 
 }
