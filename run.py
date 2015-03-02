@@ -11,4 +11,4 @@ def index():
 # In the heroku tutorial this code doenst exist plz remove.
 # if __name__ == "__main__":
 #     app.debug = True
-#     app.run()
+#     app.run(host='0.0.0.0')
